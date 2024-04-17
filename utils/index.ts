@@ -10,3 +10,11 @@ export const getColsClass = (cols: number): string => {
         return 'col-span-1';
     }
 }
+
+export const titleToSlug = (title: string): string => {
+    return title.toLowerCase().replace(/ /g, '-');
+}
+
+export const slugToTitle = (slug: string): string => {
+    return slug.split('-').map(word => capitalizeFirstLetter(word)).join(' ');
+}

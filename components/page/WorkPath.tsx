@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 
-import { capitalizeFirstLetter } from '@/utils';
+import { slugToTitle, capitalizeFirstLetter } from '@/utils';
 import Button from '../core/Button';
 
 const WorkPath = () => {
@@ -28,7 +28,7 @@ const WorkPath = () => {
                     {/* dynamic routes */}
                     <span 
                         className='text-white-primary text-[28px] cursor-pointer'
-                        onClick={() => router.push(`/firstPart`)}
+                        onClick={() => router.push(`/${firstPath.toLowerCase()}`)}
                     >
                         <span className={`${!secondPart ? 'text-accent-primary underline underline-offset-2' : 'underline underline-offset-2'}`}>
                             {firstPath}
@@ -37,7 +37,7 @@ const WorkPath = () => {
                     {secondPart && (
                         <>
                             <span className='text-white-primary text-[28px]'>{`>`}</span>
-                            <span className='text-accent-primary underline underline-offset-2 text-[28px]'>{secondPath}</span>
+                            <span className='text-accent-primary underline underline-offset-2 text-[28px]'>{slugToTitle(secondPath)}</span>
                         </>
                     )}
                 </div>
