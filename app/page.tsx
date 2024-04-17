@@ -1,6 +1,12 @@
+'use client';
+
+import { useRouter } from "next/navigation";
+
 import { Arrow } from "@/components/svg";
 
 export default function Home() {
+    const router = useRouter();
+
     return (
         <div className="relative w-full h-full">
 			{/* the reel goes below */}
@@ -8,7 +14,7 @@ export default function Home() {
 
             <div className="absolute w-full h-full">
                 <div className="grid grid-cols-1 gap-6 mx-[58px] h-full sm:grid-cols-12">
-                    <div className="flex flex-col justify-end pb-10 sm:col-span-1">
+                    <div className="flex flex-col justify-end pb-10 sm:col-span-1" onClick={() => router.push('/film')}>
                         <Arrow />
                     </div>
 

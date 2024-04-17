@@ -21,7 +21,5 @@ body {
     border: 1px solid #19191B;
     border-radius: 22px;
     background-color: #0C0C0D;
-    overflow: hidden;
+    overflow: scroll;
 }
-
-
