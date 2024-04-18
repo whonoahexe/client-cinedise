@@ -1,8 +1,13 @@
+import { Suspense } from 'react';
 import type { Metadata } from "next";
 import { Space_Mono } from 'next/font/google';
 
+import { NavigationEvents } from '@/hooks/NavigationEvents';
 import Nav from "@/components/core/Nav";
+
+import 'material-symbols';
 import "@/styles/index.css";
+import "@/styles/nprogress.css";
 
 const spaceMono = Space_Mono({
 	weight: "400",
@@ -22,11 +27,12 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={spaceMono.className}>
-				{/* nav */}
-				<Nav />
-
-				{/* content */}
-				<div className="context">
+				<Suspense fallback={null}>
+					<NavigationEvents />
+				</Suspense>
+				
+				<div className="context relative">
+					<Nav />
 					{children}
 				</div>
 			</body>

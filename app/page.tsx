@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 import { Arrow } from "@/components/svg";
@@ -14,8 +15,10 @@ export default function Home() {
 
             <div className="absolute w-full h-full">
                 <div className="grid grid-cols-1 gap-6 mx-[58px] h-full sm:grid-cols-12">
-                    <div className="flex flex-col justify-end pb-10 sm:col-span-1" onClick={() => router.push('/film')}>
-                        <Arrow />
+                    <div className="flex flex-col justify-end pb-10 sm:col-span-1">
+                        <div onClick={() => router.push('/film')} className="cursor-pointer">
+                            <Arrow />
+                        </div>
                     </div>
 
                     <div className="flex flex-col justify-end items-end gap-5 pb-10 sm:col-span-11">
@@ -25,7 +28,11 @@ export default function Home() {
                                 think of.
                             </span>
                         </p>
-                        <p className="text-4xl text-right leading-[44px] tracking-[-0.08em] text-accent-primary">cinedise.studio</p>
+                        <Link href="/film" className="flex gap-4 items-center">
+                            <p className="text-4xl text-right leading-[44px] tracking-[-0.08em] text-accent-primary">cinedise.studio</p>
+                            <span className="text-4x text-right leading-[44px] tracking-[-0.08em] text-accent-primary">.</span>
+                            <p className="text-4xl text-right leading-[44px] tracking-[-0.08em] text-accent-primary underline underline-offset-8">work <span className="material-symbols-outlined">arrow_right_alt</span></p>
+                        </Link>
                     </div>
                 </div>
             </div>
