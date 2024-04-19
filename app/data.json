@@ -2,33 +2,415 @@
     {
         "id": 1,
         "field": "Film",
-        "category": "Film",
-        "title": "Title One",
-        "description": "Hahahaha",
-        "cols": 5
+        "category": "Commercial",
+        "title": "Auto Expo Mumbai 2023",
+        "description": "A showcase of luxury cars at the Mumbai Auto Expo 2023.",
+        "image": "one.png",
+        "cols": 7
     },
     {
         "id": 2,
         "field": "Film",
-        "category": "Film",
-        "title": "Title Two",
-        "description": "Hahahaha",
-        "cols": 7
+        "category": "Commercial",
+        "title": "Layers App",
+        "description": "An explainer video for the Layers App.",
+        "image": "one.png",
+        "cols": 5
     },
     {
         "id": 3,
         "field": "Film",
-        "category": "Film",
-        "title": "Title Three",
+        "category": "Commercial",
+        "title": "Vega Lux - Product",
         "description": "Hahahaha",
-        "cols": 12
+        "image": "one.png",
+        "cols": 4
     },
     {
         "id": 4,
         "field": "Film",
+        "category": "Commercial",
+        "title": "The Souled Store - Dark Knight",
+        "description": "A commercial for The Souled Store's Dark Knight sneakers.",
+        "image": "one.png",
+        "cols": 8
+    },
+    {
+        "id": 5,
+        "field": "Film",
         "category": "Music Videos",
-        "title": "Title One",
-        "description": "Ahahahah",
+        "title": "Mon Tor Hote Chai",
+        "description": "A Bengali music video for the song Mon Tor Hote Chai.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 6,
+        "field": "Film",
+        "category": "Music Videos",
+        "title": "Hum Kahan",
+        "description": "Showcasing a story of a JEE aspirant becoming a filmmaker.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 7,
+        "field": "Film",
+        "category": "Music Videos",
+        "title": "Icchenodi",
+        "description": "Display of a love story.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 8,
+        "field": "Film",
+        "category": "Shorts",
+        "title": "Monsoon in Mumbai",
+        "description": "A visual depiction of the monsoon in Mumbai.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 9,
+        "field": "Film",
+        "category": "Shorts",
+        "title": "Aminova 2023 Aftermovie",
+        "description": "The aftermovie of the Aminova 2023 - A Uni Event.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 10,
+        "field": "Film",
+        "category": "Shorts",
+        "title": "WAD 2023 Aftermovie",
+        "description": "The aftermovie of the WAD 2023 - A Uni Event.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 11,
+        "field": "Film",
+        "category": "Shorts",
+        "title": "Blinding Lights x Mumbai",
+        "description": "Experiencing Mumbai through the lens of Blinding Lights.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 12,
+        "field": "Post",
+        "category": "VFX and Compositing",
+        "title": "Sky Pyramid",
+        "description": "A dream, a place existing in another realm.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 13,
+        "field": "Post",
+        "category": "VFX and Compositing",
+        "title": "Flash",
+        "description": "High Fantasy: The dark forest & omnious lightning.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 14,
+        "field": "Post",
+        "category": "Color Grading",
+        "title": "Layers App - Grading",
+        "description": "Breakdown of the color grading for the Layers App explainer video.",
+        "image": "one.png",
+        "cols": 8
+    },
+    {
+        "id": 15,
+        "field": "Post",
+        "category": "Color Grading",
+        "title": "Auto Expo - Grading",
+        "description": "Breakdown of the color grading for the Auto Expo.",
+        "image": "one.png",
+        "cols": 4
+    },
+    {
+        "id": 16,
+        "field": "Post",
+        "category": "Color Grading",
+        "title": "The Unicube - Short Film",
+        "description": "Breakdown of the color grading for a shortfilm.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 17,
+        "field": "Motion",
+        "category": "2D",
+        "title": "Motion Showreel 22",
+        "description": "A showcase of my motion design in 2022.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 18,
+        "field": "Motion",
+        "category": "2D",
+        "title": "Saga - Event Promo",
+        "description": "An event promo for a web3 company.",
+        "image": "one.png",
+        "cols": 5
+    },
+    {
+        "id": 19,
+        "field": "Motion",
+        "category": "2D",
+        "title": "iOS 16 - A Concept",
+        "description": "A concept video for the iOS 16 update.",
+        "image": "one.png",
         "cols": 7
+    },
+    {
+        "id": 20,
+        "field": "Motion",
+        "category": "2D",
+        "title": "Ampersand - Music Cover",
+        "description": "An animated music cover for the song Ampersand.",
+        "image": "one.png",
+        "cols": 7
+    },
+    {
+        "id": 21,
+        "field": "Motion",
+        "category": "2D",
+        "title": "Metamorphosis",
+        "description": "Animated exploration for a social media campaign.",
+        "image": "one.png",
+        "cols": 5
+    },
+    {
+        "id": 22,
+        "field": "Motion",
+        "category": "2D",
+        "title": "DCoderz - Promo",
+        "description": "Few animated promos for the DCoderz Team's social media.",
+        "image": "one.png",
+        "cols": 4
+    },
+    {
+        "id": 23,
+        "field": "Motion",
+        "category": "2D",
+        "title": "AE Explorations",
+        "description": "Exploring After Effects by maximizing it's native 3D capabilities.",
+        "image": "one.png",
+        "cols": 8
+    },
+    {
+        "id": 24,
+        "field": "Motion",
+        "category": "2D",
+        "title": "Motion Showreel 21",
+        "description": "A showcase of my motion design in 2021.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 25,
+        "field": "Motion",
+        "category": "2D",
+        "title": "Chakras - Intro",
+        "description": "Intro of a short film.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 26,
+        "field": "Motion",
+        "category": "2D",
+        "title": "Mastercard Logo Animation",
+        "description": "Unofficial logo animation for Mastercard.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 27,
+        "field": "Motion",
+        "category": "3D",
+        "title": "Toss an Idea",
+        "description": "A 3D visual concept of tossing an idea into the air.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 28,
+        "field": "Motion",
+        "category": "3D",
+        "title": "Spider People",
+        "description": "Imaginary interaction between Miles and Gwen.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 29,
+        "field": "Motion",
+        "category": "3D",
+        "title": "Google Glass - Concept",
+        "description": "A concept of discontinued Google Glass.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 30,
+        "field": "Motion",
+        "category": "3D",
+        "title": "Valentine",
+        "description": "A series of animations for the favorites.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 31,
+        "field": "Graphic",
+        "category": "Branding",
+        "title": "Broken",
+        "description": "Personal branding for an artist.",
+        "image": "one.png",
+        "cols": 7
+    },
+    {
+        "id": 32,
+        "field": "Graphic",
+        "category": "Branding",
+        "title": "BPF - Best Price Forex",
+        "description": "Logos as a part of a branding project for a client.",
+        "image": "one.png",
+        "cols": 5
+    },
+    {
+        "id": 33,
+        "field": "Graphic",
+        "category": "Branding",
+        "title": "Send Noods - Food Delivery",
+        "description": "Branding for an Asian food delivery service.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 34,
+        "field": "Graphic",
+        "category": "Branding",
+        "title": "SynX",
+        "description": "Personal branding for a developer.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 35,
+        "field": "Graphic",
+        "category": "Illustration",
+        "title": "Infatuated",
+        "description": "Character Illustration for valentine's day.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 36,
+        "field": "Graphic",
+        "category": "Illustration",
+        "title": "Interlude",
+        "description": "Floating in the void - A personal project.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 37,
+        "field": "Graphic",
+        "category": "Illustration",
+        "title": "Paper Cuts",
+        "description": "A playful procedural illustration series.",
+        "image": "one.png",
+        "cols": 6
+    },
+    {
+        "id": 38,
+        "field": "Graphic",
+        "category": "Advertisement",
+        "title": "WAD 2023",
+        "description": "Social media posters for WAD 2023.",
+        "image": "one.png",
+        "cols": 7
+    },
+    {
+        "id": 39,
+        "field": "Graphic",
+        "category": "Advertisement",
+        "title": "Caminus",
+        "description": "Social media posters for Caminus 2023.",
+        "image": "one.png",
+        "cols": 5
+    },
+    {
+        "id": 40,
+        "field": "UI",
+        "category": "Web Design",
+        "title": "Anshika - Portfolio",
+        "description": "A portfolio for a fashion designer.",
+        "image": "one.png",
+        "cols": 8
+    },
+    {
+        "id": 41,
+        "field": "UI",
+        "category": "Web Design",
+        "title": "Disguise N Buy",
+        "description": "A ninja necessities concept site with neubrutalism.",
+        "image": "one.png",
+        "cols": 4
+    },
+    {
+        "id": 42,
+        "field": "UI",
+        "category": "App Design",
+        "title": "Layers",
+        "description": "A very crucial mental health app.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 43,
+        "field": "Graphic",
+        "category": "Advertisement",
+        "title": "Mercer x Satas",
+        "description": "A poster for a Rap collab.",
+        "image": "one.png",
+        "cols": 12
+    },
+    {
+        "id": 44,
+        "field": "Graphic",
+        "category": "Advertisement",
+        "title": "Movie Nights",
+        "description": "Redesigns of movie posters for a movie night event.",
+        "image": "one.png",
+        "cols": 9
+    },
+    {
+        "id": 45,
+        "field": "Graphic",
+        "category": "Advertisement",
+        "title": "La Belle",
+        "description": "Posters for a stage play.",
+        "image": "one.png",
+        "cols": 3
+    },
+    {
+        "id": 46,
+        "field": "Graphic",
+        "category": "Branding",
+        "title": "Rolex",
+        "description": "3D Models of Rolex watches - Personal Work.",
+        "image": "one.png",
+        "cols": 12
     }
 ]

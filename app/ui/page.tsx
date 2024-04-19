@@ -35,6 +35,7 @@ const ui = () => {
                     key={index} 
                     title={card.title} 
                     description={card.description} 
+                    image={card.image}
                     cols={card.cols} 
                     className="mt-12"
                     onClick={() => {

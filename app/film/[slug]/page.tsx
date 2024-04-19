@@ -1,6 +1,9 @@
 import WorkContainer from "@/components/page/WorkContainer";
 import WorkNav from "@/components/page/WorkPath";
 
+import cards from "../../data.json";
+import { slugToTitle } from "@/utils";
+
 interface PageProps {
     params: {
         slug: string;
@@ -8,18 +11,21 @@ interface PageProps {
 }
 
 const Page = ({ params }: PageProps) => {
+    const card = cards.find(card => card.title === slugToTitle(params.slug));
+
     return (
         <WorkContainer>
             <WorkNav />
 
             <div className="col-span-full">
                 <div className="w-full aspect-video bg-black-tertiary rounded-[22px] mt-16" />
-
                 
-                <div className="flex flex-col gap-2 mt-6">
-                    <p className="text-[45px] text-white"><span className="cursor-pointer tracking-[-0.08em]">Title One</span></p>
-                    <p className="text-[18px] text-white">hehehehehe</p>
-                </div>
+                {card && (
+                    <div className="flex flex-col gap-2 mt-6">
+                        <p className="text-[45px] text-white"><span className="cursor-pointer tracking-[-0.08em]">{card.title}</span></p>
+                        <p className="text-[18px] text-white">{card.description}</p>
+                    </div>
+                )}
             </div>
         </WorkContainer>
     );

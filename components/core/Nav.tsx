@@ -62,9 +62,9 @@ const Nav = () => {
             <div className="fixed top-[69px] right-[69px] cursor-pointer z-50">
                 <Lottie lottieRef={animateRef} animationData={BurgerAnim} loop={false} autoplay={false} style={{ width: '85px' }} onClick={handleClick} />
             </div>
-
+            
             <motion.nav 
-                className="absolute w-full h-full bg-black z-40 rounded-[22px] border-2 border-accent-primary"
+                className="absolute w-full h-full bg-black z-40 rounded-[22px] border-2 border-accent-primary overflow-auto"
                 initial={{ x: '101%' }}
                 animate={{ x: active ? '20%' : '101%' }}
                 transition={{ duration: 0.7, ease: customEase }}

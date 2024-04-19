@@ -13,7 +13,7 @@ import { titleToSlug } from "@/utils";
 
 const graphic = () => {
     const router = useRouter();
-    const categories = ['Branding', 'Product', 'Illustration', 'Advertisement'];
+    const categories = ['Branding', 'Illustration', 'Advertisement'];
     const [category, setCategory] = useState<number>(0);
 
     const filteredCards = cards.filter(card => card.field === "Graphic" && card.category === categories[category]);
@@ -35,6 +35,7 @@ const graphic = () => {
                     key={index} 
                     title={card.title} 
                     description={card.description} 
+                    image={card.image}
                     cols={card.cols} 
                     className="mt-12"
                     onClick={() => {

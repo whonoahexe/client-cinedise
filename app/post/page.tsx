@@ -13,7 +13,7 @@ import { titleToSlug } from "@/utils";
 
 const post = () => {
     const router = useRouter();
-    const categories = ['VFX', 'Compositing', 'Color Grading'];
+    const categories = ['VFX and Compositing', 'Color Grading'];
     const [category, setCategory] = useState<number>(0);
 
     const filteredCards = cards.filter(card => card.field === "Post" && card.category === categories[category]);
@@ -35,6 +35,7 @@ const post = () => {
                     key={index} 
                     title={card.title} 
                     description={card.description} 
+                    image={card.image}
                     cols={card.cols} 
                     className="mt-12"
                     onClick={() => {

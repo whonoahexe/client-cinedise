@@ -13,7 +13,7 @@ import { titleToSlug } from "@/utils";
 
 const film = () => {
     const router = useRouter();
-    const categories = ['Film', 'Music Videos', 'Commercial'];
+    const categories = ['Commercial', 'Music Videos', 'Shorts'];
     const [category, setCategory] = useState<number>(0);
 
     const filteredCards = cards.filter(card => card.field === "Film" && card.category === categories[category]);
@@ -35,6 +35,7 @@ const film = () => {
                     key={index} 
                     title={card.title} 
                     description={card.description} 
+                    image={card.image}
                     cols={card.cols} 
                     className="mt-12"
                     onClick={() => {
