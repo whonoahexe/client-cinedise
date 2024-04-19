@@ -9,7 +9,6 @@ import WorkPath from "@/components/page/WorkPath";
 import WorkCard from "@/components/page/WorkCard";
 
 import cards from "../data.json";
-import { titleToSlug } from "@/utils";
 
 const graphic = () => {
     const router = useRouter();
@@ -39,7 +38,7 @@ const graphic = () => {
                     cols={card.cols} 
                     className="mt-12"
                     onClick={() => {
-                        router.push('/graphic/' + titleToSlug(card.title));
+                        router.push('/graphic/' + card.id);
                     }}
                 />
             ))}
