@@ -75,7 +75,7 @@
         "category": "Shorts",
         "title": "Monsoon in Mumbai",
         "description": "A visual depiction of the monsoon in Mumbai.",
-        "image": "one.png",
+        "image": "thumbnail/monsoon.png",
         "show": "https://www.youtube.com/embed/bL28UO2WqQs?si=Bw_V11t950-YGLjU",
         "cols": 6
     },
@@ -85,7 +85,7 @@
         "category": "Shorts",
         "title": "Aminova 2023 Aftermovie",
         "description": "The aftermovie of the Aminova 2023 - A Uni Event.",
-        "image": "one.png",
+        "image": "thumbnail/aminova.png",
         "show": "https://www.youtube.com/embed/ZgbncmHDZ6c?si=ndBEk1oTnZ8pkw1p",
         "cols": 6
     },
@@ -95,7 +95,7 @@
         "category": "Shorts",
         "title": "WAD 2023 Aftermovie",
         "description": "The aftermovie of the WAD 2023 - A Uni Event.",
-        "image": "one.png",
+        "image": "thumbnail/wad-after.jpg",
         "cols": 6
     },
     {
@@ -104,7 +104,7 @@
         "category": "Shorts",
         "title": "Blinding Lights x Mumbai",
         "description": "Experiencing Mumbai through the lens of Blinding Lights.",
-        "image": "one.png",
+        "image": "thumbnail/blinding-lights.png",
         "show": "https://www.youtube.com/embed/8UVUxRVfoU4?si=3AMRfUej3NdNRlZx",
         "cols": 6
     },
