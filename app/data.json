@@ -15,7 +15,7 @@
         "category": "Commercial",
         "title": "Layers App",
         "description": "An explainer video for the Layers App.",
-        "image": "one.png",
+        "image": "thumbnail/layers.png",
         "show": "https://www.youtube.com/embed/TSCGsDKHssU?si=SU5siQy-pBv4mIh-",
         "cols": 5
     },
@@ -132,7 +132,7 @@
         "category": "Color Grading",
         "title": "Layers App - Grading",
         "description": "Breakdown of the color grading for the Layers App explainer video.",
-        "image": "one.png",
+        "image": "thumbnail/layers.png",
         "cols": 8
     },
     {
@@ -159,7 +159,7 @@
         "category": "2D",
         "title": "Motion Showreel 22",
         "description": "A showcase of my motion design in 2022.",
-        "image": "one.png",
+        "image": "thumbnail/showreel-22.png",
         "show": "https://www.youtube.com/embed/aRO0XsIVCYI?si=G_6C85ifo676Peb6",
         "cols": 12
     },
@@ -169,7 +169,7 @@
         "category": "2D",
         "title": "Saga - Event Promo",
         "description": "An event promo for a web3 company.",
-        "image": "one.png",
+        "image": "thumbnail/saga.png",
         "show": "https://www.youtube.com/embed/lzRr3PDU39M?si=e1WQmtN10jjsj41j",
         "cols": 5
     },
@@ -179,49 +179,39 @@
         "category": "2D",
         "title": "iOS 16 - A Concept",
         "description": "A concept video for the iOS 16 update.",
-        "image": "one.png",
+        "image": "thumbnail/ios-16.png",
         "show": "https://www.youtube.com/embed/Oy-jG832zQM?si=UcZqgqZ79Ikj7c0E",
-        "cols": 7
-    },
-    {
-        "id": 20,
-        "field": "Motion",
-        "category": "2D",
-        "title": "Ampersand - Music Cover",
-        "description": "An animated music cover for the song Ampersand.",
-        "image": "one.png",
-        "show": "https://youtube.com/embed/NTwb8MigOEs?si=RuPpemRgNGvseTqH",
         "cols": 7
     },
     {
         "id": 21,
         "field": "Motion",
         "category": "2D",
-        "title": "Metamorphosis",
-        "description": "Animated exploration for a social media campaign.",
-        "image": "one.png",
-        "show": "https://youtube.com/embed/55_1JzSlOTk?si=HGE3ti-ZeYE96olD",
-        "cols": 5
+        "title": "Ampersand - Music Cover",
+        "description": "An animated music cover for the song Ampersand.",
+        "image": "thumbnail/ampersand.png",
+        "show": "https://youtube.com/embed/NTwb8MigOEs?si=RuPpemRgNGvseTqH",
+        "cols": 7
     },
     {
         "id": 22,
         "field": "Motion",
         "category": "2D",
-        "title": "DCoderz - Promo",
-        "description": "Few animated promos for the DCoderz Team's social media.",
-        "image": "one.png",
-        "show": "https://www.youtube.com/embed/SCi73YX0I6g?si=wuRw6w9wTgGKCKS0",
-        "cols": 4
+        "title": "Metamorphosis",
+        "description": "Animated exploration for a social media campaign.",
+        "image": "thumbnail/metamorphosis.png",
+        "show": "https://youtube.com/embed/55_1JzSlOTk?si=HGE3ti-ZeYE96olD",
+        "cols": 5
     },
     {
         "id": 23,
         "field": "Motion",
         "category": "2D",
-        "title": "AE Explorations",
-        "description": "Exploring After Effects by maximizing it's native 3D capabilities.",
-        "image": "one.png",
-        "show": "https://www.youtube.com/embed/Ri3AsTYoKaM?si=7i24mQXeDloR75NQ",
-        "cols": 8
+        "title": "DCoderz - Promo",
+        "description": "Few animated promos for the DCoderz Team's social media.",
+        "image": "thumbnail/dcoderz.png",
+        "show": "https://www.youtube.com/embed/SCi73YX0I6g?si=wuRw6w9wTgGKCKS0",
+        "cols": 4
     },
     {
         "id": 24,
@@ -229,9 +219,20 @@
         "category": "2D",
         "title": "Motion Showreel 21",
         "description": "A showcase of my motion design in 2021.",
-        "image": "one.png",
+        "image": "thumbnail/showreel-21.png",
         "show": "https://www.youtube.com/embed/20uiqaKa1YI?si=0NS0i3azkH88MMN7",
+        "cols": 8
+    },
+    {
+        "id": 20,
+        "field": "Motion",
+        "category": "2D",
+        "title": "AE Explorations",
+        "description": "Exploring After Effects by maximizing it's native 3D capabilities.",
+        "image": "thumbnail/motion-practice.png",
+        "show": "https://www.youtube.com/embed/6QfaoCIkPUs?si=UFmODT5Vrfo7VR8N",
         "cols": 12
+
     },
     {
         "id": 25,
@@ -249,7 +250,7 @@
         "category": "2D",
         "title": "Mastercard Logo Animation",
         "description": "Unofficial logo animation for Mastercard.",
-        "image": "one.png",
+        "image": "thumbnail/mastercard.png",
         "show": "https://www.youtube.com/embed/KCDn88_pcV8?si=GvbKJ2DgaabgVpUa",
         "cols": 6
     },
@@ -257,10 +258,10 @@
         "id": 27,
         "field": "Motion",
         "category": "3D",
-        "title": "Toss an Idea",
+        "title": "Nioc",
         "description": "A 3D visual concept of tossing an idea into the air.",
-        "image": "one.png",
-        "show": "https://www.youtube.com/embed/yRW_JbBu8YI?si=QXRH7JuA6zu65n2Q",
+        "image": "thumbnail/nioc.png",
+        "show": "https://www.youtube.com/embed/6QfaoCIkPUs?si=UFmODT5Vrfo7VR8N",
         "cols": 12
     },
     {
@@ -269,7 +270,7 @@
         "category": "3D",
         "title": "Spider People",
         "description": "Imaginary interaction between Miles and Gwen.",
-        "image": "one.png",
+        "image": "thumbnail/spidr.png",
         "show": "https://www.youtube.com/embed/ygT3DdSTgqk?si=cVjq7zESVMoyX59h",
         "cols": 12
     },
@@ -279,7 +280,7 @@
         "category": "3D",
         "title": "Google Glass - Concept",
         "description": "A concept of discontinued Google Glass.",
-        "image": "one.png",
+        "image": "thumbnail/google-glass.png",
         "show": "https://www.youtube.com/embed/AP9C7gBRg4A?si=B72Odlz_8Zq6YXMN",
         "cols": 6
     },
@@ -289,7 +290,7 @@
         "category": "3D",
         "title": "Valentine",
         "description": "A series of animations for the favorites.",
-        "image": "one.png",
+        "image": "thumbnail/valentine.png",
         "show": "https://www.youtube.com/embed/jyV17zp3AUw?si=03XyY6S-7xVoNChV",
         "cols": 6
     },
@@ -299,7 +300,7 @@
         "category": "Branding",
         "title": "Broken",
         "description": "Personal branding for an artist.",
-        "image": "one.png",
+        "image": "thumbnail/broken-brand.png",
         "showImg": "broken-1.png",
         "showImg2": "broken-2.png",
         "cols": 7
@@ -310,7 +311,7 @@
         "category": "Branding",
         "title": "BPF - Best Price Forex",
         "description": "Logos as a part of a branding project for a client.",
-        "image": "one.png",
+        "image": "thumbnail/bpf.png",
         "showImg": "bpf-1.png",
         "showImg2": "bpf-2.png",
         "cols": 5
@@ -321,7 +322,7 @@
         "category": "Branding",
         "title": "Send Noods - Food Delivery",
         "description": "Branding for an Asian food delivery service.",
-        "image": "one.png",
+        "image": "thumbnail/send-noods.png",
         "showImg": "sn-01.png",
         "showImg2": "sn-02.png",
         "cols": 6
@@ -332,7 +333,7 @@
         "category": "Branding",
         "title": "SynX",
         "description": "Personal branding for a developer.",
-        "image": "one.png",
+        "image": "thumbnail/synx.png",
         "showImg": "synx-01.png",
         "showImg2": "synx-02.png",
         "cols": 6
@@ -343,7 +344,7 @@
         "category": "Illustration",
         "title": "Infatuated",
         "description": "Character Illustration for valentine's day.",
-        "image": "one.png",
+        "image": "thumbnail/infatuated.png",
         "showImg": "infatuated.png",
         "cols": 12
     },
@@ -353,7 +354,7 @@
         "category": "Illustration",
         "title": "Interlude",
         "description": "Floating in the void - A personal project.",
-        "image": "one.png",
+        "image": "thumbnail/interlude.jpg",
         "showImg": "interlude.jpg",
         "cols": 6
     },
@@ -363,7 +364,7 @@
         "category": "Illustration",
         "title": "Paper Cuts",
         "description": "A playful procedural illustration series.",
-        "image": "one.png",
+        "image": "thumbnail/paper-cuts.png",
         "showImg": "pc-01.png",
         "showImg2": "pc-02.png",
         "cols": 6
@@ -374,7 +375,7 @@
         "category": "Advertisement",
         "title": "WAD 2023",
         "description": "Social media posters for WAD 2023.",
-        "image": "one.png",
+        "image": "thumbnail/wad.png",
         "showImg": "wad.png",
         "cols": 7
     },
@@ -384,7 +385,7 @@
         "category": "Advertisement",
         "title": "Caminus",
         "description": "Social media posters for Caminus 2023.",
-        "image": "one.png",
+        "image": "thumbnail/caminus.png",
         "showImg": "caminus.png",
         "cols": 5
     },
@@ -394,7 +395,7 @@
         "category": "Web Design",
         "title": "Anshika - Portfolio",
         "description": "A portfolio for a fashion designer.",
-        "image": "one.png",
+        "image": "thumbnail/anshika-01.png",
         "showImg": "anshika-01.png",
         "showImg2": "anshika-02.png",
         "showImg3": "anshika-03.png",
@@ -407,7 +408,7 @@
         "category": "Web Design",
         "title": "Disguise N Buy",
         "description": "A ninja necessities concept site with neubrutalism.",
-        "image": "one.png",
+        "image": "thumbnail/dis-01.png",
         "showImg": "dis-01.png",
         "showImg2": "dis-02.png",
         "showImg3": "dis-03.png",
@@ -420,7 +421,7 @@
         "category": "App Design",
         "title": "Layers",
         "description": "A very crucial mental health app.",
-        "image": "one.png",
+        "image": "thumbnail/lay-01.png",
         "showImg": "lay-01.png",
         "showImg2": "lay-02.png",
         "showImg3": "lay-03.png",
