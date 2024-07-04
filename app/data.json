@@ -5,7 +5,7 @@
         "category": "Commercial",
         "title": "Auto Expo Mumbai 2023",
         "description": "A showcase of luxury cars at the Mumbai Auto Expo 2023.",
-        "image": "one.png",
+        "image": "thumbnail/auto-expo.png",
         "show": "https://www.youtube.com/embed/T-L5Z-adthg?si=RBOB2I-ImSzYd8qy",
         "cols": 7
     },
@@ -25,7 +25,7 @@
         "category": "Commercial",
         "title": "Vega Lux - Product",
         "description": "Hahahaha",
-        "image": "one.png",
+        "image": "thumbnail/vega-lux.png",
         "show": "https://www.youtube.com/embed/_PoJSUQhIxY?si=0_puICPbDPWxms8_",
         "cols": 4
     },
@@ -35,7 +35,7 @@
         "category": "Commercial",
         "title": "The Souled Store - Dark Knight",
         "description": "A commercial for The Souled Store's Dark Knight sneakers.",
-        "image": "one.png",
+        "image": "thumbnail/souled-store.png",
         "show": "https://www.youtube.com/embed/Ij0yQ-Et2lI?si=PSn4rbFLK4mnc85M",
         "cols": 8
     },
@@ -45,7 +45,7 @@
         "category": "Music Videos",
         "title": "Mon Tor Hote Chai",
         "description": "A Bengali music video for the song Mon Tor Hote Chai.",
-        "image": "one.png",
+        "image": "thumbnail/mthc.jpg",
         "show": "https://www.youtube.com/embed/qd8EFYuirhE?si=DDu7kMMx3uPMDCZx",
         "cols": 12
     },
@@ -55,7 +55,7 @@
         "category": "Music Videos",
         "title": "Hum Kahan",
         "description": "Showcasing a story of a JEE aspirant becoming a filmmaker.",
-        "image": "one.png",
+        "image": "thumbnail/hum-kahan.jpg",
         "show": "https://www.youtube.com/embed/bwLsxeMUOTc?si=z54D1kOtwkwYczNY",
         "cols": 6
     },
@@ -65,7 +65,7 @@
         "category": "Music Videos",
         "title": "Icchenodi",
         "description": "Display of a love story.",
-        "image": "one.png",
+        "image": "thumbnail/icchenodi.jpg",
         "show": "https://www.youtube.com/embed/izH41GvV9Ss?si=dBuAp8pvHu-3cK_F",
         "cols": 6
     },
@@ -114,7 +114,7 @@
         "category": "VFX and Compositing",
         "title": "Sky Pyramid",
         "description": "A dream, a place existing in another realm.",
-        "image": "one.png",
+        "image": "thumbnail/sky-pyramid.png",
         "cols": 12
     },
     {
@@ -123,7 +123,7 @@
         "category": "VFX and Compositing",
         "title": "Flash",
         "description": "High Fantasy: The dark forest & omnious lightning.",
-        "image": "one.png",
+        "image": "thumbnail/flash.png",
         "cols": 12
     },
     {
@@ -141,7 +141,7 @@
         "category": "Color Grading",
         "title": "Auto Expo - Grading",
         "description": "Breakdown of the color grading for the Auto Expo.",
-        "image": "one.png",
+        "image": "thumbnail/auto-expo.png",
         "cols": 4
     },
     {
@@ -150,7 +150,7 @@
         "category": "Color Grading",
         "title": "The Unicube - Short Film",
         "description": "Breakdown of the color grading for a shortfilm.",
-        "image": "one.png",
+        "image": "thumbnail/sky-pyramid.png",
         "cols": 12
     },
     {
@@ -240,7 +240,7 @@
         "category": "2D",
         "title": "Chakras - Intro",
         "description": "Intro of a short film.",
-        "image": "one.png",
+        "image": "thumbnail/chakras.png",
         "show": "https://www.youtube.com/embed/ucBKKyomerg?si=6ISdqyA2vYmcphet",
         "cols": 6
     },
@@ -432,9 +432,9 @@
         "id": 43,
         "field": "Graphic",
         "category": "Advertisement",
-        "title": "Mercer x Satas",
+        "title": "Mercer x Saras",
         "description": "A poster for a Rap collab.",
-        "image": "one.png",
+        "image": "thumbnail/rap-collab.jpg",
         "showImg": "mercer.jpg",
         "cols": 12
     },
@@ -444,7 +444,7 @@
         "category": "Advertisement",
         "title": "Movie Nights",
         "description": "Redesigns of movie posters for a movie night event.",
-        "image": "one.png",
+        "image": "thumbnail/mn.jpg",
         "showImg": "mn-01.jpg",
         "showImg2": "mn-02.jpg",
         "cols": 9
@@ -455,7 +455,7 @@
         "category": "Advertisement",
         "title": "La Belle",
         "description": "Posters for a stage play.",
-        "image": "one.png",
+        "image": "thumbnail/la-belle-1.jpg",
         "showImg": "la-belle-1.jpg",
         "showImg2": "la-belle-2.jpg",
         "cols": 3
@@ -466,7 +466,7 @@
         "category": "Branding",
         "title": "Rolex",
         "description": "3D Models of Rolex watches - Personal Work.",
-        "image": "one.png",
+        "image": "thumbnail/rolex.jpg",
         "showImg": "rolex-01.jpg",
         "showImg2": "rolex-02.png",
         "cols": 12
