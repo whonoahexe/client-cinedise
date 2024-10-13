@@ -459,16 +459,5 @@
         "showImg": "la-belle-1.jpg",
         "showImg2": "la-belle-2.jpg",
         "cols": 3
-    },
-    {
-        "id": 46,
-        "field": "Graphic",
-        "category": "Branding",
-        "title": "Rolex",
-        "description": "3D Models of Rolex watches - Personal Work.",
-        "image": "thumbnail/rolex.jpg",
-        "showImg": "rolex-01.jpg",
-        "showImg2": "rolex-02.png",
-        "cols": 12
     }
 ]
