@@ -12,13 +12,13 @@ export default function Home() {
         <div className="relative w-full h-full">
 			{/* the reel goes below */}
             <div className="absolute w-full h-full sm:w-8/12 sm:h-full bg-black-secondary rounded-[22px] hidden sm:block">
-                {/* <img src="/thumbnail.png" alt="Thumbnail" className="w-full h-full object-cover rounded-[22px]" /> */}
+                <img src="/thumbnail.png" alt="Thumbnail" className="w-full h-full object-cover rounded-[22px]" />
             </div>
 
             <div className="absolute w-full h-full">
                 <div className="grid grid-cols-1 gap-6 mx-[58px] h-full sm:grid-cols-12">
                     <div className="flex flex-col justify-end pb-10 sm:col-span-1">
-                        <div onClick={() => router.push('/film/1')} className="cursor-pointer">
+                        <div onClick={() => router.push('/film/46')} className="cursor-pointer">
                             <Arrow />
                         </div>
                     </div>

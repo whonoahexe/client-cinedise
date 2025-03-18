@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import Lottie from "lottie-react";
 import { Variants, cubicBezier, motion } from "framer-motion";
 
-import logo from "@/public/vector.svg";
+import logo from "@/public/logo.svg";
 import BurgerAnim from "@/app/burger.json";
 
 const Nav = () => {
@@ -57,7 +57,7 @@ const Nav = () => {
     return (
         <>
             <div className="fixed top-[69px] left-[69px] cursor-pointer z-50">
-                <div className={!isWorkPath ? "block" : "hidden"}><Link href="/"><Image src={logo} alt="logo" width={85} height={85} /></Link></div>
+                <div className={!isWorkPath ? "block" : "hidden"}><Link href="/"><Image src={logo} alt="logo" width={160} height={90} /></Link></div>
             </div>
             <div className="fixed top-[69px] right-[69px] cursor-pointer z-50">
                 <Lottie lottieRef={animateRef} animationData={BurgerAnim} loop={false} autoplay={false} style={{ width: '85px' }} onClick={handleClick} />

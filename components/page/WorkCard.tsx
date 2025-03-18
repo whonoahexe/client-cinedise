@@ -1,4 +1,5 @@
-import { getColsClass } from "@/utils";
+import { getColsClass, isMobile } from "@/utils";
+import { useEffect, useState } from "react";
 
 interface WorkCardProps {
     title: string;
@@ -10,7 +11,11 @@ interface WorkCardProps {
 }
 
 const WorkCard = ({ title, description, image, cols, onClick, className }: WorkCardProps) => {
-    const colsClass = getColsClass(cols);
+    const [colsClass, setColsClass] = useState('col-span-12');
+
+    useEffect(() => {
+        setColsClass(getColsClass(cols, isMobile()));
+    }, [cols]);
 
     return (
         <div className={`flex flex-col gap-6 ${colsClass} ${className}`}>

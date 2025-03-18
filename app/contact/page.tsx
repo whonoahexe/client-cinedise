@@ -8,19 +8,19 @@ const contact = () => {
                     </p>
                     <div className="col-span-6 flex flex-col gap-2 mt-32 px-2">
                         <span className="material-symbols-outlined text-6xl text-white">chat_bubble</span>
-                        <p className="text-6xl text-white">General Enquiries</p>
+                        <p className="text-6xl text-white">Suryadip Panda</p>
                         <div className="mt-4 text-white-secondary">
-                            <p className="text-white-tertiary underline">broken.personal.1211@gmail.com</p>
-                            <p className="text-white-tertiary underline">+91 86670979797</p>
+                            <p className="text-white-tertiary underline">cinedisestudio@gmail.com</p>
+                            <p className="text-white-tertiary underline">+91 8108859741</p>
                         </div>
                     </div>
 
                     <div className="col-span-6 flex flex-col gap-2 mt-32 px-2">
                         <span className="material-symbols-outlined text-6xl text-white">chat_bubble</span>
-                        <p className="text-6xl text-white">New Business</p>
+                        <p className="text-6xl text-white">Kunal Mahto</p>
                         <div className="mt-4 text-white-secondary">
-                            <p className="text-white-tertiary underline">broken.contact.1211@gmail.com</p>
-                            <p className="text-white-tertiary underline">WhatsApp: +91 86670979797</p>
+                            <p className="text-white-tertiary underline">cinedisestudio@gmail.com</p>
+                            <p className="text-white-tertiary underline">WhatsApp: +91 93822788853</p>
                         </div>
                     </div>
 
